@@ -45,3 +45,40 @@ body, html {
     background-color: purple;
     text-align: center;
 }
+div.games{
+    margin: 5px;
+    float: left;
+    width: 18.5%;
+}
+
+div.games img{
+    width: 100%;
+    height: auto;
+}
+
+div.description{
+    text-align: left;
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 801px) {
+    div.games {
+        width: 24%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div.games {
+        width: 100%; 
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    div.games {
+        width: 32%;
+    }
+}
