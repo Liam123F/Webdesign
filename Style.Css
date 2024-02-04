@@ -1,0 +1,47 @@
+body, html {
+    height: 115%;
+    margin: 0;
+    font-family: Arial;
+    background-color: white;
+}
+  
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33.33%;
+}
+  
+.tablink:hover {
+    background-color: #777;
+}
+  
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#Home{
+    background-color: red;
+}
+
+#Contact{
+    background-color: brown;
+    text-align: center;
+}
+
+#Games{
+    background-color: purple;
+    text-align: center;
+}
