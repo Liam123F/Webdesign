@@ -147,4 +147,70 @@
             </a>
             <div class="description">Roulette</div>
         </div> 
+        <div class="games">
+            <a href="#" onclick="showAlert()">
+                <img src="SlotMachines.jpg" alt="SlotMachines" width="600" height="400">
+            </a>
+            <div class="description">Slot Machines</div>
+        </div> 
     
+        <div class="games">
+            <a href="#" onclick="showAlert()">
+                <img src="WheelOfFortune.jpg" alt="WheelOfFortune" width="600" height="400">
+            </a>
+            <div class="description">Wheel of Fortune</div>
+        </div>
+
+        <div class="games">
+            <a href="#" onclick="showAlert()">
+                <img src="PaiGowPoker.jpeg" alt="WheelOfFortune" width="600" height="400">
+            </a>
+            <div class="description">Pai Gow Poker</div>
+        </div>
+
+        <div class="games">
+            <a href="#" onclick="showAlert()">
+                <img src="SicBo.jpg" alt="WheelOfFortune" width="600" height="400">
+            </a>
+            <div class="description">Sic Bo</div>
+        </div>
+
+        <div class="games">
+            <a href="#" onclick="showAlert()">
+                <img src="UltimateTexasHoldem.jpg" alt="WheelOfFortune" width="600" height="400">
+            </a>
+            <div class="description">Ultimate Texas Hold em</div>
+        </div>
+    </div>
+
+    <div id="Contact" class="tabcontent">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" class="form-control" required></textarea>
+            </div>
+            
+            <button type="button" onclick="validateForm()">Submit</button>
+        </form>
+        <div id="errorMessages" class="center-text"></div>
+    </div>
+    
+    
+</body>
+</html>
